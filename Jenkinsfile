@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Jenkins automatically checks out code when using "Pipeline script from SCM", 
                 // but this explicit step fulfills the "Pull" stage requirement visually.
-                git branch: 'master', url: 'https://github.com/karanLokhande29/I039_LAB8'
+                git branch: 'main', url: 'https://github.com/karanLokhande29/I039_LAB8'
             }
         }
         stage('Build') {
